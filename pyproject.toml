@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "cell"
+version = "0.1.0"
+description = ""
+authors = ["Bulat Nasyrov <bulatnasirov2003@gmail.com>"]
+license = "GNU"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+pytest = "^8.3.4"
+flake8 = "^7.1.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
