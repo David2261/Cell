@@ -30,7 +30,7 @@ jobs:
     - name: Run tests
       run: |
         . venv/bin/activate
-        python manage.py test
+        python manage.py tests
 
     - name: Run flake8
       run: |
